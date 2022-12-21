@@ -1,0 +1,11 @@
+jboss-resteasy-4.0 org.jboss.resteasy:resteasy-core:4.1.1.Final
+jboss-resteasy-4.0 org.jboss.resteasy:resteasy-core:4.1.0.Final
+jboss-resteasy-4.0 org.jboss.resteasy:resteasy-core:4.3.0.Final
+jboss-resteasy-4.0 org.jboss.resteasy:resteasy-core:4.4.2.Final
+jboss-resteasy-4.0 org.jboss.resteasy:resteasy-core:4.4.0.CR1
+jboss-resteasy-4.0 org.jboss.resteasy:resteasy-core:4.4.1.Final
+jboss-resteasy-4.0 org.jboss.resteasy:resteasy-core:4.4.3.Final
+jboss-resteasy-4.0 org.jboss.resteasy:resteasy-core:4.0.0.Final
+jboss-resteasy-4.0 org.jboss.resteasy:resteasy-core:4.2.0.Final
+jboss-resteasy-4.0 org.jboss.resteasy:resteasy-core:4.3.1.Final
+jboss-resteasy-4.0 org.jboss.resteasy:resteasy-core:4.4.0.Final

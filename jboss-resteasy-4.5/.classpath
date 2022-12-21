@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry output="bin/main" kind="src" path="src/main/java">
+		<attributes>
+			<attribute name="gradle_scope" value="main"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry output="bin/test" kind="src" path="src/test/java">
+		<attributes>
+			<attribute name="gradle_scope" value="test"/>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="bin/default"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8/"/>
+	<classpathentry sourcepath="/Users/dhilpipre/.m2/repository/org/jboss/resteasy/resteasy-core/4.6.1.Final/resteasy-core-4.6.1.Final-sources.jar" kind="lib" path="/Users/dhilpipre/.m2/repository/org/jboss/resteasy/resteasy-core/4.6.1.Final/resteasy-core-4.6.1.Final.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/com.newrelic.agent.java/newrelic-agent/6.4.0/e640c171a471a3cf07a6ab7c248640ffc9e10953/newrelic-agent-6.4.0-sources.jar" kind="lib" path="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/com.newrelic.agent.java/newrelic-agent/6.4.0/716c0521d4baa12d9f2b0a005e1ee06a9c180214/newrelic-agent-6.4.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/dhilpipre/.m2/repository/com/newrelic/agent/java/newrelic-api/6.4.0/newrelic-api-6.4.0-sources.jar" kind="lib" path="/Users/dhilpipre/.m2/repository/com/newrelic/agent/java/newrelic-api/6.4.0/newrelic-api-6.4.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/dhilpipre/.m2/repository/org/jboss/resteasy/resteasy-core-spi/4.6.1.Final/resteasy-core-spi-4.6.1.Final-sources.jar" kind="lib" path="/Users/dhilpipre/.m2/repository/org/jboss/resteasy/resteasy-core-spi/4.6.1.Final/resteasy-core-spi-4.6.1.Final.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/dhilpipre/.m2/repository/org/jboss/spec/javax/ws/rs/jboss-jaxrs-api_2.1_spec/2.0.1.Final/jboss-jaxrs-api_2.1_spec-2.0.1.Final-sources.jar" kind="lib" path="/Users/dhilpipre/.m2/repository/org/jboss/spec/javax/ws/rs/jboss-jaxrs-api_2.1_spec/2.0.1.Final/jboss-jaxrs-api_2.1_spec-2.0.1.Final.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/dhilpipre/.m2/repository/org/jboss/spec/javax/xml/bind/jboss-jaxb-api_2.3_spec/2.0.0.Final/jboss-jaxb-api_2.3_spec-2.0.0.Final-sources.jar" kind="lib" path="/Users/dhilpipre/.m2/repository/org/jboss/spec/javax/xml/bind/jboss-jaxb-api_2.3_spec/2.0.0.Final/jboss-jaxb-api_2.3_spec-2.0.0.Final.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/dhilpipre/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3-sources.jar" kind="lib" path="/Users/dhilpipre/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/dhilpipre/.m2/repository/jakarta/validation/jakarta.validation-api/2.0.2/jakarta.validation-api-2.0.2-sources.jar" kind="lib" path="/Users/dhilpipre/.m2/repository/jakarta/validation/jakarta.validation-api/2.0.2/jakarta.validation-api-2.0.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/dhilpipre/.m2/repository/com/ibm/async/asyncutil/0.1.0/asyncutil-0.1.0-sources.jar" kind="lib" path="/Users/dhilpipre/.m2/repository/com/ibm/async/asyncutil/0.1.0/asyncutil-0.1.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/dhilpipre/.m2/repository/org/jboss/spec/javax/annotation/jboss-annotations-api_1.3_spec/2.0.1.Final/jboss-annotations-api_1.3_spec-2.0.1.Final.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/dhilpipre/.m2/repository/com/sun/activation/jakarta.activation/1.2.1/jakarta.activation-1.2.1-sources.jar" kind="lib" path="/Users/dhilpipre/.m2/repository/com/sun/activation/jakarta.activation/1.2.1/jakarta.activation-1.2.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/dhilpipre/.m2/repository/io/smallrye/config/smallrye-config/2.3.0/smallrye-config-2.3.0-sources.jar" kind="lib" path="/Users/dhilpipre/.m2/repository/io/smallrye/config/smallrye-config/2.3.0/smallrye-config-2.3.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/dhilpipre/.m2/repository/io/smallrye/config/smallrye-config-core/2.3.0/smallrye-config-core-2.3.0-sources.jar" kind="lib" path="/Users/dhilpipre/.m2/repository/io/smallrye/config/smallrye-config-core/2.3.0/smallrye-config-core-2.3.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/dhilpipre/.m2/repository/io/smallrye/common/smallrye-common-expression/1.6.0/smallrye-common-expression-1.6.0-sources.jar" kind="lib" path="/Users/dhilpipre/.m2/repository/io/smallrye/common/smallrye-common-expression/1.6.0/smallrye-common-expression-1.6.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/dhilpipre/.m2/repository/io/smallrye/common/smallrye-common-function/1.6.0/smallrye-common-function-1.6.0-sources.jar" kind="lib" path="/Users/dhilpipre/.m2/repository/io/smallrye/common/smallrye-common-function/1.6.0/smallrye-common-function-1.6.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/dhilpipre/.m2/repository/io/smallrye/common/smallrye-common-constraint/1.6.0/smallrye-common-constraint-1.6.0-sources.jar" kind="lib" path="/Users/dhilpipre/.m2/repository/io/smallrye/common/smallrye-common-constraint/1.6.0/smallrye-common-constraint-1.6.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/dhilpipre/.m2/repository/io/smallrye/config/smallrye-config-common/2.3.0/smallrye-config-common-2.3.0-sources.jar" kind="lib" path="/Users/dhilpipre/.m2/repository/io/smallrye/config/smallrye-config-common/2.3.0/smallrye-config-common-2.3.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/dhilpipre/.m2/repository/org/jboss/logging/jboss-logging/3.4.2.Final/jboss-logging-3.4.2.Final-sources.jar" kind="lib" path="/Users/dhilpipre/.m2/repository/org/jboss/logging/jboss-logging/3.4.2.Final/jboss-logging-3.4.2.Final.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/dhilpipre/.m2/repository/org/eclipse/microprofile/config/microprofile-config-api/2.0/microprofile-config-api-2.0-sources.jar" kind="lib" path="/Users/dhilpipre/.m2/repository/org/eclipse/microprofile/config/microprofile-config-api/2.0/microprofile-config-api-2.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/dhilpipre/.m2/repository/io/smallrye/common/smallrye-common-annotation/1.6.0/smallrye-common-annotation-1.6.0-sources.jar" kind="lib" path="/Users/dhilpipre/.m2/repository/io/smallrye/common/smallrye-common-annotation/1.6.0/smallrye-common-annotation-1.6.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/dhilpipre/.m2/repository/io/smallrye/common/smallrye-common-classloader/1.6.0/smallrye-common-classloader-1.6.0-sources.jar" kind="lib" path="/Users/dhilpipre/.m2/repository/io/smallrye/common/smallrye-common-classloader/1.6.0/smallrye-common-classloader-1.6.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/dhilpipre/.m2/repository/org/ow2/asm/asm/9.1/asm-9.1-sources.jar" kind="lib" path="/Users/dhilpipre/.m2/repository/org/ow2/asm/asm/9.1/asm-9.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/dhilpipre/.m2/repository/org/nanohttpd/nanohttpd/2.3.1/nanohttpd-2.3.1-sources.jar" kind="lib" path="/Users/dhilpipre/.m2/repository/org/nanohttpd/nanohttpd/2.3.1/nanohttpd-2.3.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/dhilpipre/Open-Source/newrelic-java-jboss-executors/libs/agent-bridge-datastore.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/dhilpipre/Open-Source/newrelic-java-jboss-executors/libs/agent-bridge.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/dhilpipre/Open-Source/newrelic-java-jboss-executors/libs/newrelic-agent-6.4.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/dhilpipre/Open-Source/newrelic-java-jboss-executors/libs/newrelic-weaver-scala-api.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/dhilpipre/Open-Source/newrelic-java-jboss-executors/libs/newrelic-weaver-api.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/dhilpipre/Open-Source/newrelic-java-jboss-executors/libs/newrelic-api.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/dhilpipre/Open-Source/newrelic-java-jboss-executors/test-lib/instrumentation-test.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+</classpath>

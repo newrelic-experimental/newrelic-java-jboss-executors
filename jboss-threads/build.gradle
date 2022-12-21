@@ -1,0 +1,27 @@
+
+// Build.gradle generated for instrumentation module jboss-executors
+
+apply plugin: 'java'
+
+dependencies {
+   implementation 'org.jboss.threads:jboss-threads:3.4.0.Final'
+  
+   // New Relic Java Agent dependencies
+   implementation 'com.newrelic.agent.java:newrelic-agent:6.4.0'
+   implementation 'com.newrelic.agent.java:newrelic-api:6.4.0'
+   implementation fileTree(include: ['*.jar'], dir: '../libs')
+   implementation fileTree(include: ['*.jar'], dir: '../test-lib')
+}
+
+jar {
+  manifest {
+    attributes 'Implementation-Title': 'com.newrelic.instrumentation.jboss-threads'
+    attributes 'Implementation-Vendor': 'New Relic'
+    attributes 'Implementation-Vendor-Id': 'com.newrelic'
+    attributes 'Implementation-Version': 1.0
+  }
+}
+
+verifyInstrumentation {
+  passes 'org.jboss.threads:jboss-threads:[2.3.0.Final,)'
+}

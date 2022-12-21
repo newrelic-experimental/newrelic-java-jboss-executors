@@ -1,0 +1,8 @@
+jboss-resteasy-6.0 org.jboss.resteasy:resteasy-core:6.2.0.Final
+jboss-resteasy-6.0 org.jboss.resteasy:resteasy-core:6.2.2.Final
+jboss-resteasy-6.0 org.jboss.resteasy:resteasy-core:6.1.0.Final
+jboss-resteasy-6.0 org.jboss.resteasy:resteasy-core:6.2.1.Final
+jboss-resteasy-6.0 org.jboss.resteasy:resteasy-core:6.0.3.Final
+jboss-resteasy-6.0 org.jboss.resteasy:resteasy-core:6.0.2.Final
+jboss-resteasy-6.0 org.jboss.resteasy:resteasy-core:6.0.0.Final
+jboss-resteasy-6.0 org.jboss.resteasy:resteasy-core:6.0.1.Final
