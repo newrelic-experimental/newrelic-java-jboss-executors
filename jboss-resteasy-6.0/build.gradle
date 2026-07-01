@@ -1,5 +1,5 @@
 
-// Build.gradle generated for instrumentation module jboss-resteasy
+// Build.gradle generated for instrumentation module jboss-resteasy-6.0
 
 apply plugin: 'java'
 
@@ -7,9 +7,9 @@ dependencies {
    implementation 'org.jboss.resteasy:resteasy-core:6.0.0.Final'
 
    // New Relic Labs Java Agent dependencies
-   implementation 'com.newrelic.agent.java:newrelic-agent:6.4.0'
-   implementation 'com.newrelic.agent.java:newrelic-api:6.4.0'
-   implementation fileTree(include: ['*.jar'], dir: '../libs')
+   implementation 'com.newrelic.agent.java:newrelic-agent:' + project.findProperty('java.agent.version')
+   implementation 'com.newrelic.agent.java:newrelic-api:' + project.findProperty('java.agent.version')
+   implementation 'com.newrelic.agent.java:agent-bridge:' + project.findProperty('java.agent.version')
    implementation fileTree(include: ['*.jar'], dir: '../test-lib')
 }
 
@@ -23,7 +23,7 @@ jar {
 }
 
 verifyInstrumentation {
-   passes 'org.jboss.resteasy:resteasy-core:[6.0.0.Final,)'
+   passesOnly 'org.jboss.resteasy:resteasy-core:[6.0.0.Final,)'
    excludeRegex '.*Beta[0-9]'
    excludeRegex '.*Alpha[0-9]'
 }
